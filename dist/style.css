@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    text-align: center;
+}
+.todo-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.fall {
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
+.todo-item{
+    list-style: none;
+    background-color: firebrick;
+}
+.fa-trash,
+.fa-check{
+    pointer-events: none;
+}
